@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common Utilities */
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+.heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.button {
+    background-color: #E02C6D;
+    color: white;
+    align-items: center;
+    padding: 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.manu-area nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.manu-area nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    margin: 5px;
+    font-weight: 600;
+}
+
+.manu-area nav h3, i {
+    font-size: 1.2em;
+}
+.manu-area nav i {
+    margin-left: 20px;
+}
+
+.heading-banner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.half-width {
+    width: 80%;
+}
+
+.half-width h1{
+    font-size: 2em;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.partner-logo {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner-logo img{
+    margin-left: 50px;
+}
+
+.products {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+.single-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 50px;
+}
+
+.product {
+    box-shadow: 5px 5px 10px gray;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.product strong{
+    color: #787885;
+}
+
+.product i{
+    color: orange;
+    font-size: 14px;
+}
+
+.product h3{
+    font-size: 1.5em;
+    line-height: 10px;
+}
+.product h2{
+    font-size: 28px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.other-products-btn a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 700;
+    
+}
+.other-products-btn{
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 50px;
+    
+}
+
+.technology {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 80px;
+    align-items: center; 
+}
+
+.technology img{
+    width: 100%;
+    
+}
+
+
+.subscribe {
+    background-color: #E02C6D;
+    padding: 50px;
+}
+
+.subscribe-heading{
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.subscribe-btn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subscribe-btn a{
+    text-decoration: none;
+    background-color: #ffe400;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: rgb(22, 22, 22);
+    padding: 20px;
+
+}
+
+.footer-content {
+    color: whitesmoke;
+    text-align: center;
+}
