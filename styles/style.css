@@ -202,11 +202,64 @@ body {
 
 footer {
     background-color: rgb(22, 22, 22);
-    padding: 20px;
 
 }
 
 .footer-content {
     color: whitesmoke;
     text-align: center;
+    padding: 20px;
 }
+
+
+@media only screen and (max-width: 992px) {
+    .single-product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        margin: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 820px) {
+    .manu-area {
+        display: none;
+    }
+    .partner-logo-area {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .manu-area {
+        display: none;
+    }
+    .partner-logo-area {
+        display: none;
+    }
+
+    .heading-banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        /* margin-top: 80px; */
+        margin-left: 50px;
+    }
+
+    .single-product {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        margin: 50px;
+    }
+
+    .technology {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 80px;
+        align-items: center; 
+    }
+}
+
+
