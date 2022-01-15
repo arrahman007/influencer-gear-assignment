@@ -18,9 +18,17 @@ body {
 .button {
     background-color: #E02C6D;
     color: white;
-    align-items: center;
     padding: 10px 25px;
     border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #E02C6D;
+    padding: 10px 25px;
+    border: 1px solid;    
     text-decoration: none;
     font-size: 14px;
 }
@@ -37,6 +45,16 @@ body {
     color: black;
     font-size: 1.1em;
     margin: 5px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.manu-area nav a:hover{
+    text-decoration: none;
+    color: #E02C6D;
+    border: 1px solid #E02C6D; ;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 10px 20px;
     font-weight: 600;
 }
 
@@ -148,6 +166,7 @@ body {
 .subscribe {
     background-color: #E02C6D;
     padding: 50px;
+    color: white;
 }
 
 .subscribe-heading{
@@ -165,8 +184,18 @@ body {
     text-decoration: none;
     background-color: #ffe400;
     color: black;
+    font-weight: 700;
     padding: 8px 20px;
     border-radius: 20px;
+    text-align: center;
+}
+
+.subscribe-btn a:hover{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: black;
+    font-weight: 700;
+    padding: 8px 20px;
     text-align: center;
 }
 
